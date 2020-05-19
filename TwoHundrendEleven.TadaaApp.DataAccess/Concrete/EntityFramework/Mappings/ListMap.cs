@@ -17,10 +17,10 @@ namespace TwoHundrendEleven.TadaaApp.DataAccess.Concrete.EntityFramework.Mapping
 
             builder.Property(l => l.lastupdated);
             builder.Property(l => l.status);
-            
+            builder.Property(l => l.CreatedDateAndTime);
+
             builder.Property(l => l.userId).IsRequired();
             builder.Property(l => l.Name).IsRequired().HasMaxLength(15);
-            builder.Property(l => l.CreatedDateAndTime).HasDefaultValue(DateTime.Now);
         }
     }
 }

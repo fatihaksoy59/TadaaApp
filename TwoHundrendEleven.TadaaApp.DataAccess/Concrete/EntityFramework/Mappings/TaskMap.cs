@@ -17,9 +17,9 @@ namespace TwoHundrendEleven.TadaaApp.DataAccess.Concrete.EntityFramework.Mapping
 
             builder.Property(t => t.lastupdated);
             builder.Property(t => t.status).HasDefaultValue(1);
+            builder.Property(t => t.CreatedDateAndTime);
 
             builder.Property(t => t.listId).IsRequired();
-            builder.Property(t => t.CreatedDateAndTime);
             builder.Property(t => t.Name).IsRequired().HasMaxLength(15);
             builder.Property(t => t.TaskExplanation);
             builder.Property(t => t.TaskDateAndTime);

@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Concrete\" />
+    <ProjectReference Include="..\TwoHundrendEleven.TadaaApp.DataAccess\TwoHundrendEleven.TadaaApp.DataAccess.csproj" />
+    <ProjectReference Include="..\TwoHundrendEleven.TadaaApp.Entities\TwoHundrendEleven.TadaaApp.Entities.csproj" />
   </ItemGroup>
 
 </Project>

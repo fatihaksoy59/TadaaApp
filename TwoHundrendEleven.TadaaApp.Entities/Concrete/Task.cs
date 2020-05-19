@@ -10,8 +10,8 @@ namespace TwoHundrendEleven.TadaaApp.Entities.Concrete
         public int id { get; set; }
         public long lastupdated { get; set; }
         public bool status { get; set; }
-        public int listId { get; set; }
         public DateTime CreatedDateAndTime { get; set; }
+        public int listId { get; set; }
         public string Name { get; set; }
         public string TaskExplanation { get; set; }
         public DateTime TaskDateAndTime { get; set; }
